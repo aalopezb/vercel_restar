@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/restar.py", "use": "@vercel/python" }
-  ],
-  "routes": [
-    { "src": "/restar", "dest": "api/restar.py" }
+    {
+      "src": "api/restar.py",
+      "use": "@vercel/python"
+    }
   ]
 }
